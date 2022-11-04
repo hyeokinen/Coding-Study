@@ -24,3 +24,15 @@
 |keySet()	|key들을 모아서 Set 자료형으로 반환|	Set: key들의 set
 |values()	|값들을 모아서 Collection 자료형으로 반환|	Collection: value들을 Collection으로 반환
 |size()	|map의 크기	|int: map의 크기
+
+
+## List<Map<String, Object>> 형식 출력
+---
+
+List<Map<String, Object>> resultMap = new ArrayList<Map<String, Object>>();<br>
+for(Map<String, Object> map : resultMap){<br>
+for(Map.Entry<String, Object> entry:map.entrySet()){<br>
+        String key = entry.getKey();<br>
+        Object value = entry.getValue();<br>
+     System.out.println("key: " + key + " | value: " + value);<br>
+}
