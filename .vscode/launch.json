@@ -6,12 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting.BubbleSort",
+            "projectName": "Coding Test_9223d000"
+        },
+        {
+            "type": "java",
             "name": "Launch BinSearch",
             "request": "launch",
             "mainClass": "Searching.BinSearch",
             "projectName": "Coding Test_9223d000",
             "console": "integratedTerminal"
-
         },
         {
             "type": "java",
@@ -19,7 +25,6 @@
             "request": "launch",
             "mainClass": "${file}",
             "console": "integratedTerminal"
-
         },
         {
             "type": "java",
